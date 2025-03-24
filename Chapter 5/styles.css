@@ -1,10 +1,11 @@
 html {
     height: 100%;
     width: 100%;
+    font-family: "Inter", Arial, sans-serif;    
 }
 
 .header {
-    font-family: "Inter", Arial, sans-serif;
+
     font-size: 32px;
     font-weight: 500;
     text-align: left;
@@ -12,14 +13,12 @@ html {
 }
 
 .viz {
-    width: 50%;
     height: 600px;
     padding: 16px;
     border: 1px solid #bbb;
     border-radius: 3px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
-    position:relative;
-}
+} 
 
 .app {
     position: relative;
@@ -33,13 +32,3 @@ html {
     float: left;
 }
 
-.container {
-    padding: 8px;
-    gap: 8px;
-    position: relative;
-    flex: 1 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    box-sizing: border-box;
-  }
