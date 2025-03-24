@@ -16,22 +16,20 @@
 
 <body>
     <div id="main-app">
-        <div id="logo">
+        <div id="logo" style="float: left;">
             <img loading="lazy"
                 src="https://res.cloudinary.com/talend/image/upload/w_400/q_auto/qlik/logos/logo-qlik-lg_vpuyn2.png"
                 alt="Qlik company logo" style="width: 20%;">
         </div>
         <div>
-            <div style="float: right;">
+            <div style="float: right; font-size: xx-large;">
                 Embedding Analytics using qlik-embed
             </div>
         </div>
 
-        <div id="analytics-chart" class="viz">
-            <div class="viz">
-                <qlik-embed id="visualization" ui="analytics/chart" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"
-                    object-id="gPSqbn"></qlik-embed>
-            </div>
+        <div class="viz" id="analytics-chart">
+            <qlik-embed id="visualization" ui="analytics/chart" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"
+                object-id="gPSqbn"></qlik-embed>
         </div>
 
         <div class="container">
