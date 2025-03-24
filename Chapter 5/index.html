@@ -15,23 +15,27 @@
 </head>
 
 <body>
-    <div style="width: 40%; height: 25%;  float:left;"> <div id="logo" style="float: left;">
-        <img loading="lazy"
-            src="https://res.cloudinary.com/talend/image/upload/w_400/q_auto/qlik/logos/logo-qlik-lg_vpuyn2.png"
-            alt="Qlik company logo" style="width: 20%;"></div>
-    <div style="width: 40%; height: 25%; float:right;"><div style="float: right;" class="header">
-        Embedding Analytics using qlik-embed
-    </div></div>
-    <div style="width: 100%; height:  clear:both">
-        <div class="viz" id="analytics-chart1" style="width: 40%; height: 25%;  float:left;"></div>>
-            <qlik-embed id="visualization" ui="classic/chart" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"
-                object-id="gPSqbn"></qlik-embed>
-        </div>
-        <div class="viz" id="analytics-chart2" style="width: 40%; height: 25%; float:right;"></div>>
-            <qlik-embed id="visualization" ui="classic/chart" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"
-                object-id="NuXBKdh"></qlik-embed>
+    <div style="width: 40%; height: 25%;  float:left;">
+        <div id="logo" style="float: left;">
+            <img loading="lazy"
+                src="https://res.cloudinary.com/talend/image/upload/w_400/q_auto/qlik/logos/logo-qlik-lg_vpuyn2.png"
+                alt="Qlik company logo" style="width: 20%;">
         </div>
     </div>
+    <div style="width: 40%; height: 25%; float:right;">
+        <div style="float: right;" class="header">
+            Embedding Analytics using qlik-embed
+        </div>
+    </div>
+    <div style="width: 100%; clear:both">
+        <div class="viz" id="analytics-chart1" style="width: 40%; float:left;"></div>>
+        <qlik-embed id="visualization" ui="classic/chart" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"
+            object-id="gPSqbn"></qlik-embed>
+        <div class="viz" id="analytics-chart2" style="width: 40%; float:right;"></div>>
+        <qlik-embed id="visualization" ui="classic/chart" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"
+            object-id="NuXBKdh"></qlik-embed>
+    </div>
+
 </body>
 
 </html>
