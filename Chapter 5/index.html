@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <style type="text/css" href="styles.css"></style>
     <title>Qlik Embed example</title>
-    <script
-      crossorigin="anonymous"
-      type="application/javascript"
-      src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components"
-      data-host="https://anjos.us.qlikcloud.com"
-      data-client-id="ce3fc174edd52111434eae9e601568c6"
-      data-redirect-uri="https://isvdemos.app/qlik-embed/oauth-callback.html"
-      data-access-token-storage="session"
-    ></script>
-  </head>
-  <body>
-    <div id="main-app">
-      <div class="container">
-        <h2>For a step-by-step tutorial <a href="https://qlik.dev/embed/qlik-embed/qlik-embed-webcomponent-quickstart/" target="_blank" rel="noopener noreferrer">click here</a>.</h2>
-        <h2>Make sure to configure the html files to point to your Qlik Cloud tenant.</h2>
-      </div>
-      <div id="analytics-chart" class="container">
-      <h2>qlik-embed analytics/chart embeds a chart in the page.</h2>
-      <div class="viz">
-        <qlik-embed
-          id="visualization"
-          ui="analytics/chart"
-          app-id="1a252632-e449-458d-a918-aa3842d7aaa5"
-          object-id="kxawMSL"
-        ></qlik-embed>
-      </div>
+    <script crossorigin="anonymous" type="application/javascript"
+        src="https://cdn.jsdelivr.net/npm/@qlik/embed-web-components" data-host="https://anjos.us.qlikcloud.com"
+        data-client-id="ce3fc174edd52111434eae9e601568c6"
+        data-redirect-uri="https://isvdemos.app/qlik-embed/oauth-callback.html"
+        data-access-token-storage="session"></script>
+</head>
+
+<body>
+    <div id="logo">
+        <img src="https://res.cloudinary.com/talend/image/upload/w_400/q_auto/qlik/logos/logo-qlik-lg_vpuyn2.png"
+            alt="Qlik logo" />
     </div>
-  </body>
+    <div>
+        Embedding Analytics using qlik-embed
+    </div>
+    <div id="main-app">
+        <div class="container">
+            <h2>For a step-by-step tutorial <a
+                    href="https://qlik.dev/embed/qlik-embed/qlik-embed-webcomponent-quickstart/" target="_blank"
+                    rel="noopener noreferrer">click here</a>.</h2>
+            <h2>Make sure to configure the html files to point to your Qlik Cloud tenant.</h2>
+        </div>
+        <div id="analytics-chart" class="container">
+            <h2>qlik-embed analytics/chart embeds a chart in the page.</h2>
+            <div class="viz">
+                <qlik-embed id="visualization" ui="analytics/chart" app-id="1a252632-e449-458d-a918-aa3842d7aaa5"
+                    object-id="kxawMSL"></qlik-embed>
+            </div>
+        </div>
+</body>
+
 </html>
