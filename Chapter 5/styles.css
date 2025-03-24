@@ -12,11 +12,7 @@ html {
 }
 
 .viz {
-    width: 50%;
+    width: 45%;
     height: 300px;
-    padding: 16px;
     border: 1px solid #bbb;
-    border-radius: 3px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
-    position:relative;
   }
